@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Supermercado+One');
 
-/* 
+body { font-family: "Lato";
+    font-size: 18px;
+    background-image: url(../images/map-bg.jpg)}/* 
     Add a CSS ruleset to accomplish the following:
     - Use the 'Lato' font family at 18px throughout the body of the document
     - cover the of the document background with the "map-bg.jpg" image in the images directory. 
@@ -9,6 +11,10 @@
 
 nav {font-family: sans-serif;font-size: 10px;}
 #main {width: 900px; margin: 10px auto;}
+
+h1 {font-family: "Supermercado One";
+font-size: 45px;
+color: #5d4037}
 
 /* 
     Add a CSS ruleset targeting the restaurant name to accomplish the following:
@@ -25,10 +31,15 @@ nav {font-family: sans-serif;font-size: 10px;}
 #menu {
     columns: 400px 2;
     column-gap: 100px;
+    column-rule-width: 2px;
+    column-rule-color: rosybrown;
+    column-rule-style: dashed;
 }
 
 section {padding-bottom: 50px;}
-h2 {margin: 0;}
+h2 {margin: 0;
+font-variant: small-caps;
+color: #6d4c41;}
 
 /* 
     Add a CSS ruleset targeting the headings of the menu (e.g. "Starters") to accomplish the following:
@@ -37,7 +48,8 @@ h2 {margin: 0;}
 */
 
 
-/* 
+dt {font-size: 20px;
+    font-weight: bold;}/* 
     Add a CSS ruleset targeting the name of each menu item to accomplish the following:
         - Set the font size to 20px
         - Make the font bold
@@ -55,11 +67,13 @@ dd {margin: 0 0 12px 0; display: flex;}
 .price {
     order: 2;
     padding-left: 10px;
+    font-size: large;
+    color: firebrick;
 }
 
 address {padding: 10px;}
 
-/* 
+footer {border: 2px dashed rosybrown};/* 
     Add a CSS ruleset targeting the footer to accomplish the following:
         - Draw a 2px dashed rosybrown border
 */
